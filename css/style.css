@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'roboto', 'open sans', 'benton sans', arial, sans-serif;
+  background-color: white;
+  color: #004159;
+}
+
+.status-bar {
+  width: 360px;
+  height: 24px;
+  background-color: #004159;
+}
+
+nav {
+  display: inline-block;
+  width: 360px;
+  height: 60px;
+  background-color: #007BA9;
+  padding-left: 10px;
+}
+
+#hamburger {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+}
+
+nav h2 {
+  font-size: 20px;
+  color: white;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+#search-icon {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  left: 260px;
+}
+
+#settings {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  left: 300px;
+}
+
+#map {
+  display: block;
+}
+
+.content {
+  width: 360px;
+  height: 190px;
+  overflow-y: scroll;
+}
+
+ul { /** Specific bus lines **/
+  display: block;
+  margin: 0 auto;
+  padding: 10px, 0, 10px, 20px;
+  overflow: hidden;
+  background-color: white;
+  color: #004159;
+  font-weight: bold;
+}
+
+ul:hover {
+  background-color: #FFCF34;
+}
+
+li { /** 3 columns within bus line **/
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 16px;
+  text-decoration: none;
+  line-height: 130%;
+}
+
+.line {
+  width: 30px;
+  padding-right: 20px;
+}
+
+.destination {
+  width: 182px;
+}
+
+.time {
+  width: 115px;
+  padding-right: 0;
+}
+
+p {
+  padding: 10px;
+}
+
+.box1 {
+  width: 360px;
+  height: 48px;
+  text-align: center;
+  color: white;
+  background-color: #007BA9;
+  font-size: 20px;
+  padding-top: 12px;
+}
