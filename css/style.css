@@ -78,7 +78,7 @@ li { /** 3 columns within bus line **/
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  padding: 16px;
+  padding: 8px;
   text-decoration: none;
   line-height: 130%;
 }
@@ -86,16 +86,18 @@ li { /** 3 columns within bus line **/
 .line {
   width: 25px;
   padding-right: 20px;
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 .destination {
   width: 178px;
+  padding-left: 18px;
 }
 
 .time {
-  width: 110px;
-  padding-right: 0;
+  width: 112px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 p {
